@@ -1,0 +1,20 @@
+.about-article {
+  border: 2px solid black;
+  width: 70%;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.about-article h3 {
+  margin-top: 0;
+}
+
+.about-article p {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 1rem 1rem;
+  background-color: rgb(50 206 174);
+}

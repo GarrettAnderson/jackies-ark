@@ -1,0 +1,10 @@
+.contact-card {
+  width: 80%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.contact-card ol {
+  list-style: none;
+  text-align: center;
+}

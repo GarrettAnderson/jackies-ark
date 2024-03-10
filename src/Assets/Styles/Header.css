@@ -1,0 +1,26 @@
+.header-container {
+  background-image: url("../Images/dogs-wallpaper.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-size: cover;
+  background-position-y: -30rem;
+}
+
+.header-container section {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 12rem;
+}
+.header-container h1 {
+  font-weight: 500;
+}
+
+.header-container h4 {
+  font-weight: 300;
+}

@@ -1,5 +1,5 @@
 .header-container {
-  background-image: url("../Images/dogs-wallpaper.jpg");
+  background-image: url("../Images/happy-dogs.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   background-size: cover;
-  background-position-y: -30rem;
 }
 
 .header-container section {
@@ -16,11 +15,17 @@
   margin: 0 auto;
   position: relative;
   bottom: 12rem;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .header-container h1 {
   font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .header-container h4 {
   font-weight: 300;
+  width: 92%;
+  margin: 1rem auto 2rem auto;
 }

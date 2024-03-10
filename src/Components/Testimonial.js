@@ -1,3 +1,5 @@
+import "../Assets/Styles/Testimonial.css";
+
 function Testimonial() {
   return (
     <article className="testimonial">

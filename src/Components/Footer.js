@@ -1,8 +1,8 @@
 function Footer() {
   return (
     <footer>
-      <h6>JACIE'S PET SITTER</h6>
-      <p>2024</p>
+      <h5>JACIE'S ARK PETSITTING SERVICES</h5>
+      <h6>2024</h6>
     </footer>
   );
 }

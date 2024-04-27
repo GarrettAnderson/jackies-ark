@@ -1,21 +1,29 @@
 .header-container {
-  background-image: url("../Images/happy-dogs.jpg");
-  min-height: 100vh;
+  background-color: #626060;
+}
+
+.header-container ol {
+  list-style: none;
+  margin-top: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  padding-left: 0;
+  justify-content: space-evenly;
+}
+
+.hero-image--section-containers {
+  background: url("../Images/jackie-dogs.png") rgb(255 124 0 / 45%);
+  min-height: 80vh;
   background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .header-container section {
   width: 80%;
   margin: 0 auto;
   position: relative;
-  bottom: 12rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* bottom: 12rem;
+  background-color: rgba(0, 0, 0, 0.5); */
 }
 .header-container h1 {
   font-weight: 500;

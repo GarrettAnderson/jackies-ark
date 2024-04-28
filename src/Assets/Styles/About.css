@@ -4,7 +4,7 @@
 .about-article {
   border: 2px solid black;
   width: 70%;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto;
   text-align: center;
   padding: 1rem 0;
   background-color: rgba(255, 255, 255, 1);

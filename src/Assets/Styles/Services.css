@@ -24,3 +24,7 @@ section.photo-gallery ol {
   margin: 0;
   padding-top: 1rem;
 }
+
+.jackie-ark-detail-card img {
+  max-width: 100%;
+}

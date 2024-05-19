@@ -6,6 +6,7 @@ function Footer() {
         <a
           href="https://www.business-insurers.com/"
           title="Insured and Bonded via Business Insurers of the Carolinas"
+          target="_blank"
         >
           <img
             src="https://bic.ins-cdn.com/bic/1.png"

@@ -29,8 +29,8 @@ function App() {
           <section className="jackie-ark-detail-card">
             <img src={jackiesArkImg} />
           </section>
-          <Services />
         </section>
+        <Services />
 
         <section className="photo-gallery">
           <ol>

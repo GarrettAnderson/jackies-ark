@@ -1,21 +1,22 @@
 .services-article {
-  width: 70%;
+  background-color: #84b18b;
   margin: 0 auto;
   text-align: center;
   padding: 1rem 0;
 }
 
 .services-article h3 {
-  margin: 0;
+  margin: 0 auto;
   font-family: italiana;
   font-size: 2.5rem;
   font-weight: 100;
   color: #e6e7e2;
   border-bottom: 1px solid #e6e7e2;
+  width: 50%;
 }
 .services-article ol {
   list-style: none;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   color: #e6e7e2;
   padding: 1rem;

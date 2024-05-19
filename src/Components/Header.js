@@ -7,7 +7,7 @@ function Header() {
         <ol>
           <li>ABOUT</li>
           <li>SERVICES</li>
-          <li>CONTsACT</li>
+          <li>CONTACT</li>
         </ol>
       </nav>
       <section>

@@ -26,13 +26,19 @@
   }
 } */
 
-section.photo-gallery ol {
-  margin: 0;
-  padding-top: 1rem;
+.photo-gallery ol {
+  margin: 0 auto;
+  padding: 5rem 0 5rem 0;
+  list-style: none;
+}
+
+.photo-gallery ol li {
+  text-align: center;
 }
 
 .jackie-ark-detail-card img {
   max-width: 100%;
+  margin-top: -8rem;
 }
 
 .info-section {
@@ -87,6 +93,14 @@ footer {
   align-items: center;
 }
 
+footer h5,
+footer h6 {
+  color: #bcc0aa;
+  font-family: "Italiana";
+  font-size: 1.5rem;
+}
+
 .insurance-logo {
   background-color: #e6e7e2;
+  border-radius: 1rem;
 }

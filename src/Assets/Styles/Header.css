@@ -1,5 +1,14 @@
 .header-container {
   background-color: #626060;
+  height: 5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-container nav {
+  width: 100%;
 }
 
 .header-container ol {
@@ -23,6 +32,7 @@
   width: 80%;
   margin: 0 auto;
   position: relative;
+  display: none;
   /* bottom: 12rem;
   background-color: rgba(0, 0, 0, 0.5); */
 }

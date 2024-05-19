@@ -16,6 +16,7 @@ import chickens from "./Assets/Images/chickens.jpeg";
 import chickenButt from "./Assets/Images/chickenButt.jpeg";
 import dogWithBow from "./Assets/Images/dogWithBow.jpeg";
 import jackiesArkImg from "./Assets/Images/jackiesArkImg.png";
+
 import "./Assets/Styles/Gallery.css";
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
       <Hero />
       <main className="content-container">
         <section className="info-section">
-          {/* section to set background image in css */}
           <section className="jackie-ark-detail-card">
             <img src={jackiesArkImg} />
           </section>

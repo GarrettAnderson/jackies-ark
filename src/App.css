@@ -26,6 +26,15 @@
   }
 } */
 
+section.photo-gallery ol {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.jackie-ark-detail-card img {
+  max-width: 100%;
+}
+
 .info-section {
   background-color: #626060;
   padding: 2rem;
@@ -76,4 +85,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.insurance-logo {
+  background-color: #e6e7e2;
 }

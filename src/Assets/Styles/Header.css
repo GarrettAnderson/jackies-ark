@@ -25,9 +25,10 @@
 
 .hero-image--section-containers {
   background: url("../Images/jackie-dogs.png") rgb(255 124 0 / 45%);
-  min-height: 80vh;
+  min-height: 90vh;
   background-size: cover;
   background-blend-mode: multiply;
+  background-repeat: no-repeat;
 }
 
 .header-container section {

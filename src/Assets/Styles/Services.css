@@ -5,20 +5,26 @@
   padding: 1rem 0;
 }
 
+.services-article-inner {
+  background-color: #e6e7e2;
+  width: 75%;
+  margin: 0 auto;
+}
+
 .services-article h3 {
   margin: 0 auto;
   font-family: italiana;
   font-size: 2.5rem;
   font-weight: 100;
-  color: #e6e7e2;
-  border-bottom: 1px solid #e6e7e2;
+  color: #636a40;
+  border-bottom: 1px solid #636a40;
   width: 50%;
 }
 .services-article ol {
   list-style: none;
   width: 50%;
   margin: 0 auto;
-  color: #e6e7e2;
+  color: #636a40;
   padding: 1rem;
 }
 

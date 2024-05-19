@@ -28,7 +28,7 @@
 
 .photo-gallery ol {
   margin: 0 auto;
-  padding: 5rem 0 5rem 0;
+  padding: 1rem 0 1rem 0;
   list-style: none;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .jackie-ark-detail-card img {
-  max-width: 100%;
+  width: 100%;
   margin-top: -8rem;
 }
 

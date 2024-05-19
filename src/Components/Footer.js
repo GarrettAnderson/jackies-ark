@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <h5>JACIE'S ARK PETSITTING SERVICES</h5>
+      <h5>JACKIE'S ARK PETSITTING SERVICES</h5>
       <section className="insurance-logo">
         <a
           href="https://www.business-insurers.com/"

@@ -1,9 +1,12 @@
-section.testimonials-section {
+.carousel-caption {
+  position: unset !important;
+}
+.testimonials-section {
   background-color: #84b18b;
 }
 
 .testimonial {
-  width: 60%;
+  width: 100%;
   text-align: center;
   margin: 3rem;
   color: #fff;

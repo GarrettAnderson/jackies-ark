@@ -16,6 +16,7 @@ import chickens from "./Assets/Images/chickens.jpeg";
 import chickenButt from "./Assets/Images/chickenButt.jpeg";
 import dogWithBow from "./Assets/Images/dogWithBow.jpeg";
 import jackiesArkImg from "./Assets/Images/jackiesArkImg.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Assets/Styles/Gallery.css";
 
@@ -65,13 +66,8 @@ function App() {
 
         <section className="testimonials-section">
           <div className="slider-container">
-            {/* left button of slider */}
-            <FontAwesomeIcon icon={faChevronLeft} />
-
             <Testimonial />
             {/* ADD PAGINATION ?? */}
-
-            <FontAwesomeIcon icon={faChevronRight} />
           </div>
         </section>
       </main>

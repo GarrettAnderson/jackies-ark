@@ -1,6 +1,7 @@
 .carousel-caption {
   position: unset !important;
 }
+
 .testimonials-section {
   background-color: #84b18b;
 }
@@ -21,7 +22,7 @@
   margin: 0;
 }
 
-.testimonial blockquote {
+.carousel-caption {
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   margin: 0.5rem auto;

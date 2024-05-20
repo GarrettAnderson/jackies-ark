@@ -34,6 +34,7 @@ function App() {
         <Services />
 
         <section className="photo-gallery">
+          <h4>HAPPY CLIENTS</h4>
           <ol>
             <li>
               <img src={catImg} />

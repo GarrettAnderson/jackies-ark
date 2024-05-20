@@ -9,11 +9,12 @@
   background-color: #e6e7e2;
   width: 75%;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .services-article h3 {
   margin: 0 auto;
-  font-family: italiana;
+  font-family: "italiana";
   font-size: 2.5rem;
   font-weight: 100;
   color: #636a40;

@@ -52,3 +52,9 @@
   width: 92%;
   margin: 1rem auto 2rem auto;
 }
+
+@media screen and (min-width: 600px) {
+  .hero-image--section-containers {
+    background-position-y: -10rem;
+  }
+}

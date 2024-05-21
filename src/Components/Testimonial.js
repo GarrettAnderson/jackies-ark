@@ -1,12 +1,19 @@
+import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../Assets/Styles/Testimonial.css";
 
 function Testimonial() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   let testimonials = [
     {
-      clientName: "Loren ipsum",
+      clientName: "Diane and Tammy",
       testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies at eros in eleifend.",
+        " Jackie has been our trusted pet sitter for more than twenty years. We left the area for a period of time, and we were immensely relieved to find Jackie's Ark still open for business upon our return to the Orlando area. We are especially grateful for Jackie's care with our senior pets over the years (dogs, cars, cockatiel). Her attential to detail, compassion, and expert level of care allow us to vacation worry-free when we leave our loved-ones at home. Thanks Jackie!!",
     },
     {
       clientName: "Loren ipsum",
@@ -23,40 +30,17 @@ function Testimonial() {
   return (
     <section className="testimonial">
       <h4>TESTIMONIALS</h4>
-      {/* <Carousel>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
         {testimonials.map((testimonial) => {
-          <Carousel.Item>
-            <Carousel.Caption>
-              <h3>{testimonial.clientName}</h3>
-              <p>{testimonial.testimonial}</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          return (
+            <Carousel.Item>
+              <Carousel.Caption>
+                <h5>{testimonial.testimonial}</h5>
+                <p>{testimonial.clientName}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          );
         })}
-      </Carousel> */}
-      <Carousel>
-        <Carousel.Item>
-          {/* <ExampleCarouselImage text="First slide" /> */}
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500}>
-          {/* <ExampleCarouselImage text="Second slide" /> */}
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          {/* <ExampleCarouselImage text="Third slide" /> */}
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
       </Carousel>
     </section>
   );

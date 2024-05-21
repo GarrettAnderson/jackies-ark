@@ -1,5 +1,11 @@
 .carousel-caption {
   position: unset !important;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
 }
 
 .testimonials-section {
@@ -26,4 +32,11 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   margin: 0.5rem auto;
+  position: unset !important;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
 }

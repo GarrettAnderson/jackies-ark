@@ -41,8 +41,25 @@
   height: 380px;
 }
 
-.carousel-caption h5,
 .carousel-caption p {
   font-size: 14px !important;
   font-weight: 400;
+}
+
+.carousel-caption h5 {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.testimonial .close-quote {
+  position: absolute;
+  bottom: 6rem;
+  transform: rotate(180deg);
+  right: 9rem;
+}
+
+.testimonial .open-quote {
+  position: absolute;
+  top: 6%;
+  left: 10rem;
 }

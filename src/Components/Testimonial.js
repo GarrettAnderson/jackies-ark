@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../Assets/Styles/Testimonial.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 function Testimonial() {
   const [index, setIndex] = useState(0);
@@ -34,10 +36,12 @@ function Testimonial() {
         {testimonials.map((testimonial) => {
           return (
             <Carousel.Item>
+              <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
               <Carousel.Caption>
-                <h5>{testimonial.testimonial}</h5>
-                <p>{testimonial.clientName}</p>
+                <p>{testimonial.testimonial}</p>
+                <h5>{testimonial.clientName}</h5>
               </Carousel.Caption>
+              <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
             </Carousel.Item>
           );
         })}

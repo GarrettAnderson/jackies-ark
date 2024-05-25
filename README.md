@@ -19,10 +19,6 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run deploy`
-
-Builds and deploys to Github Pages branch.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -47,6 +43,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 React-Bootstrap Carousel Docs [React-Bootstrap Carousel Docs](https://react-bootstrap.netlify.app/docs/components/carousel/).
 
+Pet Sitter International [Pet Sitter International Profile](https://www.petsit.com/pet-sitter-orlando-fl-jackies-ark-petsitting-services).
+
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
@@ -62,6 +60,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+#### `npm run deploy`
+
+Builds and deploys to Github Pages branch.
 
 ### `npm run build` fails to minify
 

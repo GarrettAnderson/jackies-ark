@@ -11,7 +11,7 @@
 .about-article h3 {
   margin-top: 0;
   margin: 0;
-  font-family: italiana;
+  font-family: "italiana";
   font-size: 2.5rem;
   font-weight: 100;
   color: #e6e7e2;
@@ -23,7 +23,7 @@
   color: #fff;
   padding: 1rem 1rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 2.5vw, 2.5rem);
   margin: 0.5rem auto;
   text-align: justify;
 }

@@ -7,7 +7,7 @@
 
 .services-article-inner {
   background-color: #e6e7e2;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   border-radius: 5px;
   padding: 2rem 0;
@@ -16,11 +16,19 @@
 .services-article h3 {
   margin: 0 auto;
   font-family: "italiana";
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
   font-weight: 100;
   color: #636a40;
-  border-bottom: 1px solid #636a40;
-  width: 50%;
+  width: 70%;
+}
+
+.services-divider {
+  display: block;
+  width: 70%;
+  border: 0;
+  border-top: 1px solid #636a40;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .services-article ol {

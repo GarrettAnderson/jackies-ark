@@ -3,7 +3,7 @@ import "../Assets/Styles/Header.css";
 function Header() {
   return (
     <header className="header-container">
-      <nav>
+      <nav className="header-desktop-nav">
         <ol>
           <li>ABOUT</li>
           <li>SERVICES</li>

@@ -7,20 +7,8 @@
   align-items: center;
 }
 
-.header-container nav {
-  width: 100%;
-}
-
-.header-container ol {
-  font-family: italiana, roboto, sans-serif;
-  list-style: none;
-  margin: 0;
-  display: flex;
-  width: 100%;
-  padding-left: 0;
-  justify-content: space-evenly;
-  color: #fff;
-  font-size: 1.75rem;
+.header-desktop-nav {
+  display: none;
 }
 
 .hero-image--section-containers {
@@ -56,5 +44,22 @@
 @media screen and (min-width: 600px) {
   .hero-image--section-containers {
     background-position-y: -10rem;
+  }
+
+  .header-container nav {
+    width: 100%;
+    display: block;
+  }
+
+  .header-desktop-nav ol {
+    font-family: italiana, roboto, sans-serif;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 1.75rem;
   }
 }

@@ -1,15 +1,6 @@
-.carousel-caption {
-  position: unset !important;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 380px;
-}
-
 .testimonials-section {
   background-color: #84b18b;
+  height: 40rem;
 }
 
 .testimonial {
@@ -20,7 +11,7 @@
 }
 
 .testimonial h4 {
-  font-family: italiana;
+  font-family: "italiana";
   font-size: 2.5rem;
   font-weight: 100;
   color: #e6e7e2;
@@ -33,17 +24,20 @@
   font-size: 1.25rem;
   margin: 0.5rem auto;
   position: unset !important;
-  width: 50%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 380px;
+  align-items: center; */
 }
 
 .carousel-caption p {
   font-size: 14px !important;
   font-weight: 400;
+  background-color: #e6e7e2;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+  color: #626060;
 }
 
 .carousel-caption h5 {
@@ -53,13 +47,35 @@
 
 .testimonial .close-quote {
   position: absolute;
-  bottom: 6rem;
+  bottom: 40px;
   transform: rotate(180deg);
-  right: 9rem;
+  right: 0;
+  opacity: 0.5;
 }
 
 .testimonial .open-quote {
   position: absolute;
-  top: 6%;
-  left: 10rem;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+.carousel-indicators {
+  margin-bottom: 0 !important;
+}
+
+.slider-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.testimonials-section svg {
+  font-size: 5rem;
 }

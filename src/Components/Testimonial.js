@@ -36,12 +36,12 @@ function Testimonial() {
         {testimonials.map((testimonial) => {
           return (
             <Carousel.Item>
-              <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
               <Carousel.Caption>
+                <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
                 <p>{testimonial.testimonial}</p>
+                <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
                 <h5>{testimonial.clientName}</h5>
               </Carousel.Caption>
-              <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
             </Carousel.Item>
           );
         })}

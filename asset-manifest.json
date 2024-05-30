@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jackies-ark/static/css/main.3c4fad43.css",
-    "main.js": "/jackies-ark/static/js/main.8fc8a8a6.js",
+    "main.css": "/jackies-ark/static/css/main.c64b467b.css",
+    "main.js": "/jackies-ark/static/js/main.85878420.js",
     "static/js/453.9602a66a.chunk.js": "/jackies-ark/static/js/453.9602a66a.chunk.js",
     "static/media/jackie-dogs.png": "/jackies-ark/static/media/jackie-dogs.ec7b618b6b7dc5139a0b.png",
     "static/media/chickens.jpeg": "/jackies-ark/static/media/chickens.8e5a68a94a3acdfce1f9.jpeg",
@@ -10,12 +10,12 @@
     "static/media/kitty.jpeg": "/jackies-ark/static/media/kitty.20386d21982b6c8d69df.jpeg",
     "static/media/jackiesArkImg.png": "/jackies-ark/static/media/jackiesArkImg.633ffc688195ee2d023b.png",
     "index.html": "/jackies-ark/index.html",
-    "main.3c4fad43.css.map": "/jackies-ark/static/css/main.3c4fad43.css.map",
-    "main.8fc8a8a6.js.map": "/jackies-ark/static/js/main.8fc8a8a6.js.map",
+    "main.c64b467b.css.map": "/jackies-ark/static/css/main.c64b467b.css.map",
+    "main.85878420.js.map": "/jackies-ark/static/js/main.85878420.js.map",
     "453.9602a66a.chunk.js.map": "/jackies-ark/static/js/453.9602a66a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c4fad43.css",
-    "static/js/main.8fc8a8a6.js"
+    "static/css/main.c64b467b.css",
+    "static/js/main.85878420.js"
   ]
 }

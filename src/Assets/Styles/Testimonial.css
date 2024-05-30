@@ -41,22 +41,22 @@
 }
 
 .carousel-caption h5 {
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: bold;
-}
-
-.testimonial .close-quote {
-  position: absolute;
-  bottom: 40px;
-  transform: rotate(180deg);
-  right: 0;
-  opacity: 0.5;
 }
 
 .testimonial .open-quote {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
+  opacity: 0.5;
+}
+
+.testimonial .close-quote {
+  position: absolute;
+  bottom: 45px;
+  transform: rotate(180deg);
+  right: 0;
   opacity: 0.5;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .testimonials-section svg {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 @media screen and (min-width: 600px) {

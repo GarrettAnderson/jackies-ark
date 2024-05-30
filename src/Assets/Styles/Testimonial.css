@@ -1,6 +1,6 @@
 .testimonials-section {
   background-color: #84b18b;
-  height: 40rem;
+  height: 60rem;
 }
 
 .testimonial {
@@ -12,7 +12,7 @@
 
 .testimonial h4 {
   font-family: "italiana";
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
   font-weight: 100;
   color: #e6e7e2;
   border-bottom: 1px solid #e6e7e2;
@@ -78,4 +78,10 @@
 
 .testimonials-section svg {
   font-size: 5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .testimonials-section {
+    height: auto;
+  }
 }

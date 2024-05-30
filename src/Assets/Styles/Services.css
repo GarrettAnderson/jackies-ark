@@ -33,7 +33,7 @@
 
 .services-article ol {
   list-style: none;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   color: #636a40;
   padding: 1rem;
@@ -43,4 +43,9 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   margin-top: 0.5rem;
+}
+
+.individual-service-divider {
+  max-width: 15rem;
+  margin: 1rem auto;
 }

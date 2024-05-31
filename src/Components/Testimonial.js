@@ -11,11 +11,15 @@ function Testimonial() {
     setIndex(selectedIndex);
   };
 
+  const showTooltip = (text) => {
+    console.log(text);
+  };
+
   let testimonials = [
     {
       clientName: "Diane and Tammy",
       testimonial:
-        " Jackie has been our trusted pet sitter for more than twenty years. We left the area for a period of time, and we were immensely relieved to find Jackie's Ark still open for business upon our return to the Orlando area. We are especially grateful for Jackie's care with our senior pets over the years (dogs, cars, cockatiel). Her attential to detail, compassion, and expert level of care allow us to vacation worry-free when we leave our loved-ones at home. Thanks Jackie!!",
+        "Jackie has been our trusted pet sitter for more than twenty years. We left the area for a period of time, and we were immensely relieved to find Jackie's Ark still open for business upon our return to the Orlando area. We are especially grateful for Jackie's care with our senior pets over the years (dogs, cars, cockatiel). Her attential to detail, compassion, and expert level of care allow us to vacation worry-free when we leave our loved-ones at home. Thanks Jackie!!",
     },
     {
       clientName: "Loren ipsum",
@@ -38,7 +42,9 @@ function Testimonial() {
             <Carousel.Item>
               <Carousel.Caption>
                 <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
-                <p>{testimonial.testimonial}</p>
+                <p onMouseEnter={(e) => showTooltip(e.target.value)}>
+                  {testimonial.testimonial.substring(0, 100) + "..."}
+                </p>
                 <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
                 <h5>{testimonial.clientName}</h5>
               </Carousel.Caption>

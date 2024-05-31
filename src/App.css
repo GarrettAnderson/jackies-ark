@@ -62,18 +62,6 @@
   font-weight: 900;
 }
 
-.slider-container {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.testimonials-section svg {
-  font-size: 2rem;
-}
-
 footer {
   background-color: #626060;
   /* background-color: #333333; */
@@ -86,6 +74,13 @@ footer {
 
 footer h5,
 footer h6 {
+  color: #bcc0aa;
+  font-family: "Italiana";
+  font-size: 1.5rem;
+}
+
+.footer-contact-info ol {
+  list-style: none;
   color: #bcc0aa;
   font-family: "Italiana";
   font-size: 1.5rem;

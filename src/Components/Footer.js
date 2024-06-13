@@ -4,7 +4,6 @@ function Footer() {
       <h5>JACKIE'S ARK PETSITTING SERVICES</h5>
       <section className="footer-contact-info">
         <ol>
-          <li>CUSTOM PET CARE</li>
           <li>407-716-5790</li>
           <li>jgirl3210@gmail.com</li>
         </ol>

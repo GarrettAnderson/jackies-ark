@@ -1,6 +1,6 @@
 .testimonials-section {
   background-color: #84b18b;
-  height: 60rem;
+  height: auto;
 }
 
 .testimonial {
@@ -38,6 +38,8 @@
   padding: 2rem;
   border-radius: 5px;
   color: #626060;
+  max-height: 211px;
+  height: 211px;
 }
 
 .carousel-caption h5 {

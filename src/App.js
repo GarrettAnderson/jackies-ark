@@ -66,10 +66,10 @@ function App() {
         </section>*/}
 
         <section className="testimonials-section">
-          <div className="slider-container">
-            <Testimonial />
-            {/* ADD PAGINATION ?? */}
-          </div>
+          {/* <div className="slider-container"> */}
+          <Testimonial />
+          {/* ADD PAGINATION ?? */}
+          {/* </div> */}
         </section>
       </main>
 

@@ -22,9 +22,9 @@ function Testimonial() {
         "Jackie has been our trusted pet sitter for more than twenty years. We left the area for a period of time, and we were immensely relieved to find Jackie's Ark still open for business upon our return to the Orlando area. We are especially grateful for Jackie's care with our senior pets over the years (dogs, cars, cockatiel). Her attential to detail, compassion, and expert level of care allow us to vacation worry-free when we leave our loved-ones at home. Thanks Jackie!!",
     },
     {
-      clientName: "Loren ipsum",
+      clientName: "Dana Singer",
       testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies at eros in eleifend.",
+        "Jackie has been our trusted petsitter for 19 years. This relationship is grounded in Jackie's unwavering commitment to providing the highest levels of care for our pets and home. We use Jackie for daily dog walks, visits, and vacation stays, and the peace of mind is invaluable. If consistent and capable care for your pets is important to you, then there is no one better than Jackie!",
     },
     {
       clientName: "Loren ipsum",
@@ -36,14 +36,29 @@ function Testimonial() {
   return (
     <section className="testimonial">
       <h4>TESTIMONIALS</h4>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel
+        className="single-testimonial"
+        activeIndex={index}
+        onSelect={handleSelect}
+      >
         {testimonials.map((testimonial) => {
+          // return (
+          //   <>
+          //     <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
+          //     <p className="testimonial-text" onMouseEnter={(e) => showTooltip(e.target.value)}>
+          //       {testimonial.testimonial.substring(0, 300) + "..."}
+          //     </p>
+          //     <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
+          //     <h5 className="testimonial-byline">{testimonial.clientName}</h5>
+          //   </>
+          // );
+
           return (
             <Carousel.Item>
               <Carousel.Caption>
                 <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
                 <p onMouseEnter={(e) => showTooltip(e.target.value)}>
-                  {testimonial.testimonial.substring(0, 100) + "..."}
+                  {testimonial.testimonial.substring(0, 300) + "..."}
                 </p>
                 <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
                 <h5>{testimonial.clientName}</h5>

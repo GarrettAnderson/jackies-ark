@@ -74,10 +74,10 @@ footer {
 
 footer h5,
 footer h6 {
-  color: #bcc0aa;
   font-family: "Italiana";
   font-size: 1.5rem;
   font-weight: bold;
+  color: #e6e7e2;
 }
 
 .footer-contact-info ol {
@@ -85,6 +85,9 @@ footer h6 {
   color: #bcc0aa;
   font-family: "Italiana";
   font-size: 1.5rem;
+  padding-left: 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 .insurance-logo {

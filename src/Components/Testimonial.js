@@ -36,37 +36,28 @@ function Testimonial() {
   return (
     <section className="testimonial">
       <h4>TESTIMONIALS</h4>
-      <Carousel
-        className="single-testimonial"
-        activeIndex={index}
-        onSelect={handleSelect}
-      >
-        {testimonials.map((testimonial) => {
-          // return (
-          //   <>
-          //     <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
-          //     <p className="testimonial-text" onMouseEnter={(e) => showTooltip(e.target.value)}>
-          //       {testimonial.testimonial.substring(0, 300) + "..."}
-          //     </p>
-          //     <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
-          //     <h5 className="testimonial-byline">{testimonial.clientName}</h5>
-          //   </>
-          // );
-
-          return (
-            <Carousel.Item>
-              <Carousel.Caption>
-                <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
-                <p onMouseEnter={(e) => showTooltip(e.target.value)}>
-                  {testimonial.testimonial.substring(0, 300) + "..."}
-                </p>
-                <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} />
-                <h5>{testimonial.clientName}</h5>
-              </Carousel.Caption>
-            </Carousel.Item>
-          );
-        })}
-      </Carousel>
+      {testimonials.map((testimonial) => {
+        return (
+          <div
+            className="single-testimonial"
+            // activeIndex={index}
+            // onSelect={handleSelect}
+          >
+            <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
+            <div className="testimonial-text-container">
+              <p
+                className="testimonial-text"
+                onMouseEnter={(e) => showTooltip(testimonial.testimonial)}
+              >
+                {testimonial.testimonial}
+                {/* {testimonial.testimonial.substring(0, 250) + "..."} */}
+              </p>
+              <h5 className="testimonial-byline">{testimonial.clientName}</h5>
+            </div>
+            {/* <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} /> */}
+          </div>
+        );
+      })}
     </section>
   );
 }

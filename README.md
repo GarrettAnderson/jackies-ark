@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a marketing website for a local pet sitter.
+
+## Install Dependencies
+
+In the root directory of the project, run `npm install`.
 
 ## Available Scripts
 

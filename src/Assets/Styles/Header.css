@@ -11,13 +11,19 @@
   display: none;
 }
 
+.hero-image-container-parent {
+  background-color: rgb(255 124 0 / 45%);
+}
+
 .hero-image--section-containers {
-  background: url("../Images/jackie-dogs.png") rgb(255 124 0 / 45%);
+  background: url("../Images/jackie-dogs.png");
   min-height: 75vh;
   background-size: cover;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .header-container section {

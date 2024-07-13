@@ -45,13 +45,15 @@ function Testimonial() {
           >
             <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
             <div className="testimonial-text-container">
-              <p
-                className="testimonial-text"
-                onMouseEnter={(e) => showTooltip(testimonial.testimonial)}
-              >
-                {testimonial.testimonial}
-                {/* {testimonial.testimonial.substring(0, 250) + "..."} */}
-              </p>
+              <div className="text-parent">
+                <p
+                  className="testimonial-text"
+                  onMouseEnter={(e) => showTooltip(testimonial.testimonial)}
+                >
+                  {testimonial.testimonial}
+                  {/* {testimonial.testimonial.substring(0, 250) + "..."} */}
+                </p>
+              </div>
               <h5 className="testimonial-byline">{testimonial.clientName}</h5>
             </div>
             {/* <FontAwesomeIcon className="close-quote" icon={faQuoteLeft} /> */}

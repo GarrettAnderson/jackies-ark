@@ -1,12 +1,17 @@
 function Footer() {
   return (
     <footer>
-      <h5>JACKIE'S ARK PETSITTING SERVICES</h5>
       <section className="footer-contact-info">
-        <ol>
-          <li>407-716-5790</li>
-          <li>jgirl3210@gmail.com</li>
-        </ol>
+        <h5>JACKIE'S ARK PETSITTING SERVICES</h5>
+        <section className="footer-contact-info">
+          <ol>
+            <li>407-716-5790</li>
+            <li>jgirl3210@gmail.com</li>
+            <li>
+              <h6>2024</h6>
+            </li>
+          </ol>
+        </section>
       </section>
       <section className="insurance-logo">
         <a
@@ -20,7 +25,6 @@ function Footer() {
           />
         </a>
       </section>
-      <h6>2024</h6>
     </footer>
   );
 }

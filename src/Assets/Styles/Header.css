@@ -11,10 +11,6 @@
   display: none;
 }
 
-.hero-image-container-parent {
-  background-color: rgb(255 124 0 / 45%);
-}
-
 .hero-image--section-containers {
   background: url("../Images/jackie-dogs.png");
   min-height: 75vh;
@@ -22,8 +18,6 @@
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  max-width: 75%;
-  margin: 0 auto;
 }
 
 .header-container section {
@@ -48,18 +42,14 @@
   margin: 1rem auto 2rem auto;
 }
 
-@media screen and (min-width: 600px) {
-  .hero-image--section-containers {
-    background-position-y: -10rem;
-  }
-
+@media screen and (min-width: 767px) {
   .header-container nav {
     width: 100%;
     display: block;
   }
 
   .header-desktop-nav ol {
-    font-family: italiana, roboto, sans-serif;
+    font-family: "italiana", "roboto", sans-serif;
     list-style: none;
     margin: 0;
     display: flex;
@@ -68,5 +58,20 @@
     justify-content: space-evenly;
     color: #fff;
     font-size: 1.75rem;
+  }
+
+  .hero-image-parent-container {
+    background-color: rgba(255, 124, 0, 0.45);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 124, 0, 0.45) 100%
+    );
+    /* background-color: rgb(255 124 0 / 45%); */
+  }
+
+  .hero-image--section-containers {
+    max-width: 75%;
+    margin: 0 auto;
   }
 }

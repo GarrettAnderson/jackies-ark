@@ -28,13 +28,13 @@
 
 .jackie-ark-detail-card img {
   width: 100%;
-  margin-top: -8rem;
+  /* margin-top: -8rem; */
   border-radius: 5px;
 }
 
 .info-section {
-  background-color: #626060;
   padding: 2rem;
+  grid-column: 1 / 4;
 }
 
 .contact-info-section {
@@ -93,4 +93,10 @@ footer h6 {
 .insurance-logo {
   background-color: #e6e7e2;
   border-radius: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+  .info-section {
+    position: absolute;
+  }
 }

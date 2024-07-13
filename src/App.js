@@ -26,11 +26,19 @@ function App() {
       <Header />
       <Hero />
       <main className="content-container">
-        <section className="info-section">
-          <section className="jackie-ark-detail-card">
-            <img src={jackiesArkImg} />
+        <section className="about-info-container-parent">
+          <section className="about-info-container">
+            <section className="info-section">
+              <section className="jackie-ark-detail-card">
+                <img src={jackiesArkImg} />
+              </section>
+            </section>
+            <section className="about-section">
+              <About />
+            </section>
           </section>
         </section>
+
         <Services />
 
         <section className="photo-gallery">
@@ -49,10 +57,6 @@ function App() {
               <img src={chickenButt} />
             </li>
           </ol>
-        </section>
-
-        <section className="about-section">
-          <About />
         </section>
 
         {/* <section className="contact-info-section">

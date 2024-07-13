@@ -8,6 +8,7 @@
 .services-article-inner {
   background-color: #e6e7e2;
   width: 80%;
+  max-width: 850px;
   margin: 0 auto;
   border-radius: 5px;
   padding: 2rem 0;
@@ -26,7 +27,7 @@
   display: block;
   width: 70%;
   border: 0;
-  border-top: 1px solid #636a40;
+  border-top: 5px solid #636a40;
   margin: 0 auto;
   padding: 0;
 }
@@ -46,6 +47,6 @@
 }
 
 .individual-service-divider {
-  max-width: 15rem;
+  max-width: 3rem;
   margin: 1rem auto;
 }

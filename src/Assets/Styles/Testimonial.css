@@ -53,10 +53,10 @@
   font-size: 1.25rem;
   margin: 0.5rem auto;
   position: unset !important;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .testimonial-text-container {
@@ -70,6 +70,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  max-width: 595px;
 }
 
 .text-parent {
@@ -119,7 +120,7 @@
   height: 100%;
 }
 
-@media screen and (min-width: 967px) {
+@media screen and (min-width: 1550px) {
   .testimonial {
     display: grid;
     grid-template-columns: repeat(3, minmax(150px, 550px));

@@ -95,7 +95,7 @@ footer h6 {
   border-radius: 1rem;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 967px) {
   .info-section {
     position: absolute;
   }

@@ -45,7 +45,7 @@ function Testimonial() {
           >
             <FontAwesomeIcon className="open-quote" icon={faQuoteLeft} />
             <div className="testimonial-text-container">
-              <div className="text-parent">
+              <div className="testimonial-text-parent">
                 <p
                   className="testimonial-text"
                   onMouseEnter={(e) => showTooltip(testimonial.testimonial)}
